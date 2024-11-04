@@ -103,6 +103,7 @@ section{
     align-items: center;
     justify-content: flex-start;
     color: #fff;
+    overflow: hidden; 
 }
 a{
     color: #f5ebeb;
@@ -522,3 +523,80 @@ header.sticky{
     }
    
 } 
+
+
+
+/* Styles for screens below 500px */
+@media (max-width: 500px) {
+    header.sticky .navbar, header.sticky .right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar li {
+        margin: 5px 0;
+    }
+
+    
+}
+
+@media (max-width: 500px) {
+    .home {
+        background-size: cover; /* Ensures background covers the area */
+        background-position: center; /* Center background image */
+    }
+
+    /* Optional: Adjust padding/margin on child elements if needed */
+    .home .text {
+        padding: 20px; /* Adjusts padding for text on small screens */
+    }
+}
+
+
+/* Basic styling for the .feature section */
+.feature {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Styling for the .content container */
+.feature .content {
+    display: grid;
+    gap: 20px; /* Space between images */
+    width: 100%;
+}
+
+/* Responsive grid for rows */
+.feature .row {
+    text-align: center;
+}
+
+/* Ensure the images are responsive */
+.feature .imgs img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Optional: add rounded corners */
+}
+
+/* Styling for the heading */
+.feature h4 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    color: #fff; /* Adjust color as needed */
+}
+
+/* Responsive grid layout */
+@media (max-width: 500px) {
+    .feature .content {
+        grid-template-columns: 1fr 1fr; /* 2 columns for medium screens and up */
+    }
+}
+
+/* Responsive grid for large screens */
+@media (min-width: 1024px) {
+    .feature .content {
+        grid-template-columns: 1fr 1fr 1fr; /* 3 columns on large screens */
+    }
+}
