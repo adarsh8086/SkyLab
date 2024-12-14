@@ -35,11 +35,11 @@ SkyLab is a travel tour website showcasing various destinations with detailed to
 
 ### 🏠 **Homepage**
 
-![Homepage Screenshot](screenshot/home.png)
+![Homepage Screenshot](Screenshot/home.png)
 
 ### 🌍 **Destination Guide**
 
-![Destination Guide Screenshot](screenshot/destination.png)
+![Destination Guide Screenshot](Screenshot/destination.png)
 
 
 
