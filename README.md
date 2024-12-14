@@ -29,10 +29,17 @@ SkyLab is a travel tour website showcasing various destinations with detailed to
 
 ---
 
-## 🚀 **Setup Instructions**
 
-1. **Clone the repository**:
 
-   ```bash
-   git clone https://github.com/adarsh8086/SkyLab.git
-   cd SkyLab
+## 🖼️ **Screenshots**
+
+### 🏠 **Homepage**
+
+![Homepage Screenshot](screenshot/home.png)
+
+### 🌍 **Destination Guide**
+
+![Destination Guide Screenshot](screenshot/destination.png)
+
+
+
